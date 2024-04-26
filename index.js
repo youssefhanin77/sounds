@@ -68,4 +68,18 @@ async function joinAndPlayQuran(guildId, channelId) {
   player.on('error', error => console.error(`Error: ${error.message}`));
 }
 
+//-------------------------------------------------
+    const statuses = [
+        'Yeah Strangers Isss The Athletes'
+    ];
+    let i = 0;
+    setInterval(() => {
+        client.user.setActivity(statuses[i], {
+            type: 'STREAMING',
+            url: 'https://www.twitch.tv/athletesmena'
+        });
+        i = ++i % statuses.length;
+    }, 1e4);
+//-------------------------------------------------
+
 client.login(process.env.TOKEN);
