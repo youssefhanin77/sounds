@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 });
 const channelId = '1232865728781090916';
 const guildId = '1063804912372285493'; 
-const Url = 'https://www.youtube.com/watch?v=NGsvJ4on5e4&pp=ygUOZ3ltIG11c2ljIGxpdmU%3D'; 
+const Url = 'https://www.youtube.com/watch?v=ljdq2QYG_xU&pp=ygUYZ3ltIG11c2ljIGJpdHMgcGhvbmsgNDBo'; 
 
 client.on('ready', () => {
   console.log(`✅ | Logged in as ${client.user.tag}`);
